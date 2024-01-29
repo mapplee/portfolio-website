@@ -1,5 +1,5 @@
-import logo from "./arr.svg";
-import aarti from "./photo2.jpg";
+import logo from "./apple_logo.png";
+import apple from "./apple.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -23,6 +23,7 @@ import hf from "./hf.svg";
 import bny from "./bny.png";
 import clg from "./clg.png";
 import school from "./school.png";
+import bl_school from "./bl_school.jpg";
 
 import crypto from "./project/crypto.jpg";
 import oop from "./project/oop.png";
@@ -38,7 +39,7 @@ import cg from "./project/cg.jpg";
 import port_3d from "./project/react.png";
 import jsp from "./project/jsp.png";
 import notes from "./project/notes.png";
-import chitchat from "./project/chitChat.png";
+import smsportal from "./project/sms-portal-dashboard.png";
 import react1 from "./project/react1.png";
 
 import be from "./project/mcq.avif";
@@ -67,10 +68,11 @@ export {
   demo,
   clg,
   school,
+  bl_school,
   crypto,
-  aarti,
+  apple,
   oop,crud,dwld,onetomany,yml,
   trie,ds,cg,
-  port_3d, jsp, chitchat, notes, react1,
+  port_3d, jsp, smsportal, notes, react1,
   be,sql, mini, snl,
 };

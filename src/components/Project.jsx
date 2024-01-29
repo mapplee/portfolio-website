@@ -88,7 +88,7 @@ const ProjectCard = ({
 };
 const Project = () => {
 
-  const [selected, setSelected] = useState("java");
+  const [selected, setSelected] = useState("web");
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -107,7 +107,7 @@ const Project = () => {
         break;
 
       default:
-        setData(cProject);
+        setData(webProject);
     }
   }, [selected]);
 

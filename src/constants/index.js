@@ -1,10 +1,10 @@
 import {
     javascript,html,css,reactjs,tailwind,nodejs,mongodb,git,threejs,
     hf,bny,holopin,
-    clg,school,
+    clg,school,bl_school,
     crypto,oop,yml,crud,dwld,onetomany,
     trie,ds,cg,
-    port_3d, jsp, chitchat, notes, react1,
+    port_3d, jsp, smsportal, notes, react1,
     be,sql, mini, snl,
   } from "../assets";
 
@@ -37,25 +37,22 @@ import {
 
   const achievements = [
     {
-      title: "8th Position : Selected for the final round of 12th CSI InApp International Student Project awards 2023.",
+      title: "Champion Programming combat 2021’ organized by Dept. of CSE Tejgaon College 2021",
     },
     {
-      title: "Twice State level Table-Tennis Winner (2021 and 2022)",
+      title: "8Th DIU ICT Carnival 2018",
     },
     {
-      title: "1st Position : Consecutive four times Winner of UdChalo Scholarship (2019 - 2023)",
+      title: "76Th BUP IUPC 2019",
     },
     {
-      title: "Branch Head of Information Technology Department (2021 - 2022)",
+      title: "87Th ICPC Dhaka Regional 2020",
     },
     {
-      title: "Selected in top 100 candidates for Google Cloud Training among 20k Students.",
+      title: "99Th SEU ICPC Dhaka Regional 2019",
     },
     {
-      title: "Got Education Scholarship Scheme for Army Personnel(ESSA) Scholarship (2015 - 2023)",
-    },
-    {
-      title: "Played Nationals in Throwball for U-14 category. (2015)",
+      title: "248Th DIU ICPC Dhaka Regional 2018",
     },
   ]
   
@@ -73,12 +70,12 @@ import {
       icon: javascript,
     },
     {
-      name:"Bootstrap",
-      icon: "https://img.icons8.com/color/480/000000/bootstrap.png",
+      name:"Java",
+      icon: "https://sandaacademy.com/wp-content/uploads/2023/02/Java-Logo.png",
     },
     {
-      name:"Google Cloud",
-      icon: "https://img.icons8.com/color/480/000000/google-cloud.png",
+      name:"Bootstrap",
+      icon: "https://img.icons8.com/color/480/000000/bootstrap.png",
     },
     {
       name:"C++ tool",
@@ -101,10 +98,6 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
@@ -115,22 +108,22 @@ import {
   ];
 
   const list = [
-    {
-      id: "java",
-      title: "Java",
-    },
-    {
-      id: "c++",
-      title: "C++",
-    },
+    // {
+    //   id: "java",
+    //   title: "Java",
+    // },
+    // {
+    //   id: "c++",
+    //   title: "C++",
+    // },
     {
       id: "web",
-      title: "Web Dev",
+      title: "Web Applications",
     },
-    {
-      id: "other",
-      title: "Other",
-    },
+    // {
+    //   id: "other",
+    //   title: "Other",
+    // },
   ];
 
   export const javaProject = [
@@ -267,7 +260,7 @@ import {
       source_code_link: "https://github.com/shinchancode/Object-Oriented-Programming-Lab",
     },
   ];
-  
+
   export const cProject = [
     {
       name: "Spell Checker",
@@ -335,7 +328,7 @@ import {
       source_link: "https://github.com/shinchancode/Computer-Graphics",
       source_code_link: "https://github.com/shinchancode/Computer-Graphics",
     },
-    
+
   ];
   
   export const webProject = [
@@ -362,92 +355,60 @@ import {
       source_code_link: "https://github.com/shinchancode/3d-react-portfolio",
     },
     {
-      name: "React portfolio",
+      name: "Dhikr Browser Extension",
       description:
-        "Website made using React in the FrontEnd, Nodejs and Express in the BackEnd. Responsive webpage is made with user friendly interface",
+        "Dhikr is a cross-browser extension that brings a touch of spiritual enrichment to your daily browsing experience. With Dhikr, every new tab becomes an opportunity to read a Hadith and learn a new word, fostering a sense of mindfulness and knowledge.",
       tags: [
-        {
-          name: "nodejs",
-          color: "blue-text-gradient",
-        },
+        // {
+        //   name: "nodejs",
+        //   color: "blue-text-gradient",
+        // },
         {
           name: "React",
           color: "green-text-gradient",
         },
         {
-          name: "html css",
+          name: "TailwindCSS",
           color: "pink-text-gradient",
         },
       ],
       image: react1,
-      source_link: "https://shinchancode.github.io/React-Portfolio/",
-      source_code_link: "https://github.com/shinchancode/React-Portfolio",
+      source_link: "https://chromewebstore.google.com/detail/dhikr-browser-extension/alhhipkdolifadffnollpkijfpnlnfka",
+      source_code_link: "https://github.com/Balagha/dhikr",
     },
     {
-      name: "30 Days of JavaScript",
+      name: "SMS Portal",
       description:
-        "Website made using Nodejs and Express in the BackEnd. A 30 Days Of JavaScript challenge to learn JavaScript by making 30 different projects using some famous JavaScript libraries.",
+        "SMS portal a web-based system which provides the functions and features necessary to allow authorized users to send SMS messages to intended recipients. Include features like message scheduling, bulk SMS.",
       tags: [
         {
-          name: "JavaScript",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "30dayschallenge",
-          color: "green-text-gradient",
+          name: "RestComm jss7",
+          color: "pink-text-gradient",
         },
         {
-          name: "css",
+          name: "SIGTRAN",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Apache OFBiz",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "React",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MySQL",
           color: "pink-text-gradient",
         },
       ],
-      image: jsp,
-      source_link: "https://rathi-30-days-of-javascript.onrender.com/",
-      source_code_link: "https://github.com/shinchancode/30-Days-of-Javascript",
-    },
-    {
-      name: "Chit Chat Application",
-      description:
-        "Real-Time, event based communication in Nodejs and browser-based Chat application. Uses Socket.io for implementation for WebSockets protocol. This application built using Node.js, Express, Socket.io and Render (Hosting)",
-      tags: [
-        {
-          name: "Chatting",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "socket.io",
-          color: "green-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: chitchat,
+      image: smsportal,
       source_link: "https://chit-chat-app.onrender.com/",
       source_code_link: "https://github.com/shinchancode/Chit-Chat-Real_time_chat_app",
-    },
-    {
-      name: "Notes Application",
-      description:
-        "A web-based notes app made by using javaScript, This web-based notes app having functionalities like Drag and drop, Search notes etc.",
-      tags: [
-        {
-          name: "notes",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "bootstrap",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: notes,
-      source_link: "https://shinchancode.github.io/Notes-App/",
-      source_code_link: "https://github.com/shinchancode/Notes-App",
     },
   ];
   
@@ -546,100 +507,99 @@ import {
   
   const experiences = [
     {
-      title: "Software Devloper",
-      company_name: "Bank of New York Mellon",
+      title: "Senior Software Engineer",
+      company_name: "Telcobright Limited",
       icon: bny,
       iconBg: "#383E56",
-      date: "Aug 2023 - Present",
+      date: "July 2022 - Present",
       link: "",
       points: [
-        "Software build is now used internally in the company and by the company’s clients for operating Netx360 and Netx360+.",
+        "Telcobright Limited –listed company in telecommunications Services sector of Bangladesh. ",
         "Resolved more than 50+ Software Composition Analysis (SCA) and vulnerabilities issues.",
         "Adapted Agile methodologies, CI/CD, and Test-Driven Programming to uphold strong programming practices.",
-        "Using technologies like Java, SpringBoot, C#, .NET and AngularJS.",
+        "Using technologies like Java, SpringBoot, C#, .NET,SS7, and ReactJS.",
       ],
-      link: "https://drive.google.com/drive/folders/13FK-YewFDv8ALmzKglPBmb6Z3oenuYoP",
+      // link: "https://drive.google.com/drive/folders/13FK-YewFDv8ALmzKglPBmb6Z3oenuYoP",
     },
+    // {
+    //   title: "Research Intern",
+    //   company_name: "National Security Council Secretriat",
+    //   icon: "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-national-security-agency-crowdfunding-flaticons-lineal-color-flat-icons-2.png",
+    //   iconBg: "#383E56",
+    //   date: "Mar 2022 - Oct 2023",
+    //   link: "",
+    //   points: [
+    //     "Creating a system for secure fine-grained next-generation access control and authorization of digital assets and operations using policy based cryptosystem.",
+    //     "Collaborating with cross-functional technologies like spring boot, react etc. to integrate high-quality products.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    //   link: "https://github.com/codewithrathi",
+    // },
+    // {
+    //   title: "DSA Mentor",
+    //   company_name: "GeeksforGeeks (Intern)",
+    //   icon: "https://img.icons8.com/color/344/GeeksforGeeks.png",
+    //   iconBg: "#E6DEDD",
+    //   date: "May 2022 - Apr 2023",
+    //   link: "",
+    //   points: [
+    //     "Teaching Assistant : Teaching Assistant for online batches of Data Structures, Algorithms, and Competitive programming with an average rating of 4.9*.",
+    //     "Responsible for reviewing and writing articles based on Data Structures and Algorithms.",
+    //   ],
+    //   link: "https://drive.google.com/drive/folders/1efpnfKpRTvtujtSgHwRIJdrMFiWrBFHt",
+    // },
+    // {
+    //   title: "Technical Content Writer",
+    //   company_name: "GeeksforGeeks",
+    //   icon: "https://img.icons8.com/color/344/GeeksforGeeks.png",
+    //   iconBg: "#383E56",
+    //   date: "Dec 2020 - July 2022",
+    //   link: "",
+    //   points: [
+    //     "Creative and experienced content writer with 2+ years of experience.",
+    //     "Attracted over 10000+ visitors to the company website with powerful educational content.",
+    //     "Wrote 100+ articles and improved 300+ articles on topics like Data Structures, Algorithms, Mathematics and related engineering topics",
+    //   ],
+    //   link: "https://auth.geeksforgeeks.org/user/_shinchancode",
+    // },
+    // {
+    //   title: "Google Cloud Training",
+    //   company_name: "Google Cloud",
+    //   icon: "https://img.icons8.com/fluency/344/google-cloud.png",
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2021 - Apr 2021",
+    //   link: "",
+    //   points: [
+    //     "Introduction to GCP and more functionalities with free access to quests, skill badges.",
+    //     "Collaborating with cross-functional technologies.",
+    //     "Got introduced to Computing, Application Development, Big Data and Machine Learning using Google Cloud's on training platform Qwiklabs",
+    //     "Additional self-paced labs were provided to practice on Qwiklabs a platform by Google",
+    //   ],
+    //   link: "https://www.cloudskillsboost.google/public_profiles/48dcd029-03b4-437b-9dd3-ef7d65958eb0",
+    // },
     {
-      title: "Research Intern",
-      company_name: "National Security Council Secretriat",
-      icon: "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-national-security-agency-crowdfunding-flaticons-lineal-color-flat-icons-2.png",
-      iconBg: "#383E56",
-      date: "Mar 2022 - Oct 2023",
-      link: "",
-      points: [
-        "Creating a system for secure fine-grained next-generation access control and authorization of digital assets and operations using policy based cryptosystem.",
-        "Collaborating with cross-functional technologies like spring boot, react etc. to integrate high-quality products.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-      link: "https://github.com/codewithrathi",
-    },
-    {
-      title: "DSA Mentor",
-      company_name: "GeeksforGeeks (Intern)",
-      icon: "https://img.icons8.com/color/344/GeeksforGeeks.png",
-      iconBg: "#E6DEDD",
-      date: "May 2022 - Apr 2023",
-      link: "",
-      points: [
-        "Teaching Assistant : Teaching Assistant for online batches of Data Structures, Algorithms, and Competitive programming with an average rating of 4.9*.",
-        "Responsible for reviewing and writing articles based on Data Structures and Algorithms.",
-      ],
-      link: "https://drive.google.com/drive/folders/1efpnfKpRTvtujtSgHwRIJdrMFiWrBFHt",
-    },
-    {
-      title: "Technical Content Writer",
-      company_name: "GeeksforGeeks",
-      icon: "https://img.icons8.com/color/344/GeeksforGeeks.png",
-      iconBg: "#383E56",
-      date: "Dec 2020 - July 2022",
-      link: "",
-      points: [
-        "Creative and experienced content writer with 2+ years of experience.",
-        "Attracted over 10000+ visitors to the company website with powerful educational content.",
-        "Wrote 100+ articles and improved 300+ articles on topics like Data Structures, Algorithms, Mathematics and related engineering topics",
-      ],
-      link: "https://auth.geeksforgeeks.org/user/_shinchancode",
-    },
-    {
-      title: "Google Cloud Training",
-      company_name: "Google Cloud",
-      icon: "https://img.icons8.com/fluency/344/google-cloud.png",
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Apr 2021",
-      link: "",
-      points: [
-        "Introduction to GCP and more functionalities with free access to quests, skill badges.",
-        "Collaborating with cross-functional technologies.",
-        "Got introduced to Computing, Application Development, Big Data and Machine Learning using Google Cloud's on training platform Qwiklabs",
-        "Additional self-paced labs were provided to practice on Qwiklabs a platform by Google",
-      ],
-      link: "https://www.cloudskillsboost.google/public_profiles/48dcd029-03b4-437b-9dd3-ef7d65958eb0",
-    },
-    {
-      title: "Hacktoberfest",
-      company_name: "GitHub",
+      title: "ACM ICPC World Final",
+      company_name: "Association for Computing Machinery",
       icon: hf,
       iconBg: "#E6DEDD",
-      date: "Oct (2020 - 2022)",
+      date: "2018, 2019",
       link: "",
       points: [
-        "Hacktoberfest is an annual worldwide event held during the month of October. The event encourages open source developers to contribute to repositories through pull requests (PR).",
-        "GitHub hosts many open source repositories that contribute to this event.",
+          "The ACM International Collegiate Programming Contest (ICPC) is a multitier, team-based, programming competition operating under the Association for Computing Machinery (ACM)"
       ],
-      link: "https://dev.to/shinchancode",
+      // link: "https://dev.to/shinchancode",
     },
   ];
-  
+
   const educations = [
     {
       degree: "Bachelor of Engineering",
       branch:
         "Information Technology",
       marks:
-        "CGPA : 9.42 / 10",
-      name: "Army Institute of Technology Dighi, Pune",
-      year: "(2019 - 2023)",
+        "CGPA : 3.04 / 4",
+      name: "Daffodil Institute of IT, Dhaka",
+      year: "(2017 - 2022)",
       image: clg,
     },
     {
@@ -647,9 +607,9 @@ import {
         "12th Grade",
       branch : "Science",
       marks:
-        "Percentage : 89.88 %",
-      name: "Kendriya Vidyalaya RHE Khadki Pune",
-      year: "2018",
+        "GPA : 4.56 / 5",
+      name: "Islamia Govt College, Sirajganj",
+      year: "2016",
       image: school,
     },
     {
@@ -657,10 +617,10 @@ import {
         "10th Grade",
       branch: "SSC",
       marks:
-        "Percentage : 95 %",
-      name: "Kendriya Vidyalaya RHE Khadki Pune",
-      year: "2016",
-      image: school,
+        "GPA : 4.33 / 5",
+      name: "BL Govt High School, Sirajganj",
+      year: "2014",
+      image: bl_school,
     },
   ];
   
