@@ -136,11 +136,11 @@ const Contact = () => {
         <div className="mt-5 contact__options">
           <article className="contact__option">
             <MdEmail />
-            <a href="mailto:aarti.rathi1710@gmail.com" target="_blank" className="blue-text-gradient">iapplee007@gmail.com</a>
+            <a href="mailto:iapplee007@gmail.com" target="_blank" className="blue-text-gradient">iapplee007@gmail.com</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp />
-            <a href="https://api.whatsapp.com/send/?phone=917040031669&text&app_absent=0&lang=en" target="_blank" className="blue-text-gradient">
+            <a href="https://api.whatsapp.com/send/?phone=01743801850&text&app_absent=0&lang=en" target="_blank" className="blue-text-gradient">
               +8801743 801850
             </a>
           </article>
@@ -149,5 +149,7 @@ const Contact = () => {
     </div>
   );
 };
+
+
 
 export default SectionWrapper(Contact, "contact");
