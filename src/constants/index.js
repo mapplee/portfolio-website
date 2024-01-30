@@ -351,8 +351,8 @@ import {
         },
       ],
       image: port_3d,
-      source_link: "https://shinchancode.github.io/3d-react-portfolio/",
-      source_code_link: "https://github.com/shinchancode/3d-react-portfolio",
+      source_link: "",
+      source_code_link: "",
     },
     {
       name: "Dhikr Browser Extension",
@@ -407,8 +407,8 @@ import {
         },
       ],
       image: smsportal,
-      source_link: "https://chit-chat-app.onrender.com/",
-      source_code_link: "https://github.com/shinchancode/Chit-Chat-Real_time_chat_app",
+      source_link: "",
+      source_code_link: "",
     },
   ];
   
